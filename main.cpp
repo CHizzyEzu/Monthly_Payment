@@ -24,6 +24,7 @@ int main()
     cin >> pay;
     
 // Calculatations
+
         rate = rate / 100;
         mon = (rate * pow(1 + rate, pay)) / (pow(1 + rate, pay) - 1) * loan;
         apb = (mon * 12) + loan;
