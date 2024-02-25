@@ -5,6 +5,7 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
+#include <cmath>
 using namespace std;
 
 int main()
@@ -28,7 +29,6 @@ int main()
         mon = (rate * pow(1 + rate, pay)) / (pow(1 + rate, pay) - 1) * loan;
         apb = (mon * 12) + loan;
         ip = mon * 12;
-    rate = rate / 100;
 
     // Output Code and Stream Manipulation
 
@@ -38,3 +38,4 @@ int main()
     cout << "Interest Paid:  " << setw(10) << ip << endl;
 
     return 0;
+}
