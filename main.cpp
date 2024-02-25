@@ -19,7 +19,7 @@ int main()
 
     cout << "Enter the amount you owe:  $";
     cin >> loan;
-    cout << "Enter your rate percentage:  %";
+    cout << "Enter your interest rate percentage:  % ";
     cin >> rate;
     cout << "Enter the amount of payments made:  ";
     cin >> pay;
